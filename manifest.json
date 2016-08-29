@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Easy Tasks",
+  "short_name": "Tasks",
+  "version": "1.0",
+  "description": "A new tab page for task management.",
+  
+  "chrome_url_overrides": {
+    "newtab": "tasks.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
